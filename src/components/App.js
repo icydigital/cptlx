@@ -1,6 +1,8 @@
-import React from 'react';
-import logo from '../logo.png';
+import React, { useState } from 'react';
 import './App.css';
+import { DataTable } from 'primereact/datatable';
+import { InputText } from 'primereact/inputtext';
+import { Button } from 'primereact/button';
 
 
 const cptlxPool = [
@@ -24,34 +26,61 @@ const cptlxPool = [
   }
 ]
 
-class App extends React.Component {
-  render() {
-    return (
-      <div>
-        <nav className="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
-          <a
-            className="navbar-brand col-sm-3 col-md-2 mr-0"
-            // href="http://www.dappuniversity.com/bootcamp"
-            // target="_blank"
-            // rel="noopener noreferrer"
-          >
-            Cptlx
-          </a>
-        </nav>
-        <div className="container-fluid mt-5">
-          <div className="row">
-            <main role="main" className="col-lg-12 d-flex text-center">
-              <div className="content mr-auto ml-auto">
-                Searchbar 
-                <br></br>
-                List of Services 
-              </div>
-            </main>
-          </div>
+
+function App () {
+  const [filteredPools, setFilteredPools] = useState(cptlxPool);
+  const [filterValue, setFilterValue] = useState('');
+
+  const handleFilterChange = (event) => {
+    const newFilterValue = event.target.value.toLowerCase();
+    setFilterValue(newFilterValue);
+  };
+
+  const handleFilterSubmit = () => {
+    const newFilteredPools = cptlxPool.filter((pool) =>
+      pool.name.toLowerCase().includes(filterValue.toLowerCase())
+    );
+    setFilteredPools(newFilteredPools);
+  };
+
+  const handleKeyDown = (event) => {
+    if (event.key === 'Enter') {
+      handleFilterSubmit();
+    }
+  };
+
+
+  return (
+    <div>
+      <nav className="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
+        <a
+          className="navbar-brand col-sm-3 col-md-2 mr-0"
+          href="http://www.dappuniversity.com/bootcamp"
+          // target="_blank"
+          // rel="noopener noreferrer"
+        >
+          Cptlx
+        </a>
+      </nav>
+      <div className="container-fluid mt-5">
+        <div className="p-mr-2">
+          <span>Filter:</span>
+          <InputText
+            placeholder="Search by name"
+            value={filterValue}
+            onChange={handleFilterChange}
+            onKeyDown={handleKeyDown}
+          />
+          <Button label="Filter" onClick={handleFilterSubmit} />
         </div>
       </div>
-    );
-  }
+      <DataTable value={filteredPools}>
+        <column field="id" header="ID" sortable />
+        <column field="name" header="Name" sortable />
+        <column field="type" header="Category" sortable />
+      </DataTable>
+    </div>
+  );
 }
 
 export default App;
