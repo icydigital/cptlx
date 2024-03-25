@@ -5,7 +5,7 @@ import { InputText } from 'primereact/inputtext';
 import { Button } from 'primereact/button';
 
 
-const cptlxPool = [
+const cptlxServiceList = [
   {
     name: "Coinbase",
     type: "CEX",
@@ -28,7 +28,7 @@ const cptlxPool = [
 
 
 function App () {
-  const [filteredPools, setFilteredPools] = useState(cptlxPool);
+  const [filteredServices, setFilteredServices] = useState(cptlxServiceList);
   const [filterValue, setFilterValue] = useState('');
 
   const handleFilterChange = (event) => {
@@ -37,10 +37,10 @@ function App () {
   };
 
   const handleFilterSubmit = () => {
-    const newFilteredPools = cptlxPool.filter((pool) =>
+    const newFilteredServices = cptlxServiceList.filter((pool) =>
       pool.name.toLowerCase().includes(filterValue.toLowerCase())
     );
-    setFilteredPools(newFilteredPools);
+    setFilteredServices(newFilteredServices);
   };
 
   const handleKeyDown = (event) => {
@@ -74,8 +74,8 @@ function App () {
           <Button label="Filter" onClick={handleFilterSubmit} />
         </div>
       </div>
-      <DataTable value={filteredPools}>
-        <column field="id" header="ID" sortable />
+      <DataTable value={filteredServices}>
+        {/* <column field="id" header="ID" sortable /> */}
         <column field="name" header="Name" sortable />
         <column field="type" header="Category" sortable />
       </DataTable>
