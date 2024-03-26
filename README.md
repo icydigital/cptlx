@@ -1,8 +1,12 @@
 # cptlx
 
-- create web3 app with search bar, list and IPFS data
+- (web3|unstoppable domain) app listing all financial services in the crypto/blockchain industry 
 
-# financial services
+Note: for the Hinterkopf / discussion with peers ---> prevent sammelsurium of services 
+
+# financial crypto/blockchain services
+
+## Overview
 
 The following is a list of financial services that are now available in the cryptocurrency industry:
 
@@ -28,13 +32,13 @@ The following is a list of financial services that are now available in the cryp
 
 **Crypto insurance:** This type of insurance protects users against losses caused by cryptocurrency theft or hacks.  
 
-In addition to these services, there are a number of other financial services that are still under development in the cryptocurrency industry. For example, some companies are developing decentralized exchanges and lending platforms that are designed to be more efficient and secure than traditional financial institutions. Other companies are developing crypto-based derivatives and other financial products that are designed to provide investors with more sophisticated investment options.  
+In addition to these services, there are a number of other financial services that are still under development in the cryptocurrency industry. For example, some companies are developing decentralized exchanges and lending platforms that are designed to be more efficient and secure than traditional financial institutions. Other companies are developing crypto-based derivatives and other financial products that are designed to provide investors with more sophisticated investment options. 
 
-### Crypto exchanges
+## Crypto exchanges
 
 These platforms allow users to buy, sell, and trade cryptocurrencies.
 
-#### Centralized Exchanges (CEXs)
+### Centralized Exchanges (CEXs)
 
 [**Coinbase:**](https://www.coinbase.com/) A large and beginner-friendly US-based exchange with over 200 cryptocurrencies supported.
 
@@ -46,7 +50,7 @@ These platforms allow users to buy, sell, and trade cryptocurrencies.
 
 [**Binance.US:**](https://www.binance.us/) The US arm of the world's largest crypto exchange, Binance. Offers a wide variety of coins and features, but not available in all US states.
 
-#### Decentralized Exchanges (DEXs):
+### Decentralized Exchanges (DEXs):
 
 [**Uniswap:**](https://uniswap.org/) A leading DEX on the Ethereum blockchain, offering peer-to-peer trading without a central intermediary.
 
@@ -54,13 +58,13 @@ These platforms allow users to buy, sell, and trade cryptocurrencies.
 
 [**PancakeSwap:**](https://pancakeswap.finance/swap) A popular DEX on the Binance Smart Chain (BSC), offering faster and cheaper transactions than Ethereum-based DEXs.
 
-#### Other notable exchanges
+### Other notable exchanges
 
 [**Robinhood:**](https://robinhood.com/eu/en/about/crypto/) A popular investment app that also offers limited crypto trading.
 
 [**eToro:**](https://www.etoro.com/crypto/) A social trading platform that also allows crypto trading.
 
-### Crypto custodians
+## Crypto custodians
 
 These companies store cryptocurrencies for users on a secure basis.
 
@@ -87,7 +91,7 @@ integration with a wide range of exchanges and wallets as well as support for a 
 
 [**Binance Custody:**](https://www.binance.com/en/how-to-buy/custody-token) Binance Custody is a subsidiary of Binance, a leading cryptocurrency exchange. They offer institutional-grade security, insurance coverage, a wide range of supported assets
 
-### Crypto asset management companies 
+## Crypto asset management companies 
 
 [**Grayscale:**](https://www.grayscale.com/) Grayscale is the world's largest digital currency asset manager. It offers a variety of investment products, including trusts that track the price of Bitcoin and Ethereum. 
 
@@ -99,7 +103,7 @@ integration with a wide range of exchanges and wallets as well as support for a 
 
 [**Andreessen Horowitz:**](https://a16z.com/) Andreessen Horowitz (a16z) is a venture capital firm that has been investing in technology companies since 1996. It has recently begun to invest in blockchain and digital assets, and it has launched a crypto-focused fund. 
 
-### Crypto lending platforms
+## Crypto lending platforms
 
 [**BlockFi:**](https://blockfi.com/) Offers a variety of crypto-backed loans and interest-earning accounts. 
 
@@ -111,131 +115,130 @@ integration with a wide range of exchanges and wallets as well as support for a 
 
 [**Crypto.com:**](https://crypto.com/) Earn interest on your crypto, get rewarded for using their debit card, and access exclusive features.
 
-### Decentralized Crypto Lending Platforms (DeFi)
+## Decentralized Crypto Lending Platforms (DeFi)
 
-[**Aave:**]() A leading DeFi lending protocol offering a variety of features, including flash loans.
+[**Aave:**](https://aave.com/) A leading DeFi lending protocol offering a variety of features, including flash loans.
 
-[**MakerDAO:**]() The DAO behind the DAI stablecoin, MakerDAO also offers Maker Vaults for borrowing DAI against other crypto assets.
+[**MakerDAO:**](https://makerdao.com/en/) The DAO behind the DAI stablecoin, MakerDAO also offers Maker Vaults for borrowing DAI against other crypto assets.
 
-[**Compound:**]() A popular DeFi lending protocol offering interest on various crypto assets.
+[**Compound:**](https://compound.finance/) A popular DeFi lending protocol offering interest on various crypto assets.
 
-[**Uniswap V3:**]() A decentralized exchange that also offers lending and borrowing features. 
+[**Uniswap V3:**](https://app.uniswap.org/) A decentralized exchange that also offers lending and borrowing features. 
 
-[**Yearn Finance:**]() A suite of DeFi protocols that offer automated yield farming and lending strategies.
+[**Yearn Finance:**](https://yearn.fi/) A suite of DeFi protocols that offer automated yield farming and lending strategies.
 
-### Crypto borrowing platforms
+## Crypto borrowing platforms
 
-[**Nexo:**]() Offers a wide range of supported assets, attractive interest rates for both borrowing and lending, and instant loan approvals.
+[**Nexo:**](https://nexo.com/?v=demo3) Offers a wide range of supported assets, attractive interest rates for both borrowing and lending, and instant loan approvals.
 
-[**Binance:**]() A popular exchange offering crypto loans with flexible terms and competitive rates. Best for users already familiar with the Binance ecosystem.
+[**Binance:**](https://www.binance.com/en/loan) A popular exchange offering crypto loans with flexible terms and competitive rates. Best for users already familiar with the Binance ecosystem.
 
-[**Crypto.com:**]() Provides loans in various fiat currencies and stablecoins, with flexible repayment options and discounts for CRO token holders.
+[**Crypto.com:**](https://crypto.com/eea) Provides loans in various fiat currencies and stablecoins, with flexible repayment options and discounts for CRO token holders.
 
-[**Celsius**]() (Currently in Chapter 11 bankruptcy proceedings): Once a major player, Celsius offered high yields on deposits and attractive loan rates. However, it recently filed for bankruptcy, and user funds are currently frozen. 
+[**Celsius**](https://celsius.network/) (Currently in Chapter 11 bankruptcy proceedings): Once a major player, Celsius offered high yields on deposits and attractive loan rates. However, it recently filed for bankruptcy, and user funds are currently frozen. 
 
-[**BlockFi**]() (Recently acquired by FTX): Another popular platform offering interest on deposits and crypto loans. It was recently acquired by FTX following liquidity issues. 
+[**BlockFi**](https://app.blockfi.com/signin) (Recently acquired by FTX): Another popular platform offering interest on deposits and crypto loans. It was recently acquired by FTX following liquidity issues. 
 
-[**dYdX:**]() A specialized DeFi derivatives exchange that also offers margin trading and crypto borrowing with leverage.
+[**dYdX:**](https://dydx.exchange/) A specialized DeFi derivatives exchange that also offers margin trading and crypto borrowing with leverage.
 
-### Decentralized finance (DeFi) platforms
+## Decentralized finance (DeFi) platforms
 
-#### Decentralized Exchanges (DEXs):
+### Decentralized Exchanges (DEXs):
 
-Uniswap: A leading DEX known for its user-friendly interface and deep liquidity.
+[**Uniswap:**](https://uniswap.org/) A leading DEX known for its user-friendly interface and deep liquidity.
 
-SushiSwap: A fork of Uniswap with additional features like leverage trading and yield farming. 
+[**SushiSwap:**](https://www.sushi.com/swap) A fork of Uniswap with additional features like leverage trading and yield farming. 
 
-PancakeSwap: A popular DEX on the BNB Chain, offering fast and low-cost transactions.
+[**PancakeSwap:**](https://pancakeswap.finance/) A popular DEX on the BNB Chain, offering fast and low-cost transactions.
 
-Curve Finance: A DEX specializing in stablecoin swaps with low fees and high efficiency.
+[**Curve Finance:**](https://curve.fi/) A DEX specializing in stablecoin swaps with low fees and high efficiency.
 
-1inch: An aggregator DEX that searches multiple DEXs for the best prices on token swaps.
+[**1inch:**](https://1inch.io/) An aggregator DEX that searches multiple DEXs for the best prices on token swaps.
 
-Decentralized Lending and Borrowing:
+### Decentralized Lending and Borrowing:
 
-[**Aave:**]() A leading DeFi lending platform offering a variety of features like variable and fixed interest rates.
+[**Aave:**](https://aave.com/) A leading DeFi lending platform offering a variety of features like variable and fixed interest rates.
 
-MakerDAO: A decentralized stablecoin platform where users can borrow DAI by depositing other cryptocurrencies as collateral.
+[**MakerDAO:**](https://makerdao.com/en/) A decentralized stablecoin platform where users can borrow DAI by depositing other cryptocurrencies as collateral.
 
-Compound: A popular DeFi lending platform offering interest on deposited cryptocurrencies.
+[**Compound:**](https://compound.finance/) A popular DeFi lending platform offering interest on deposited cryptocurrencies.
 
-Venus: A DeFi lending platform on the Binance Chain with a focus on stablecoins.
+[**Venus:**](https://venus.io/) A DeFi lending platform on the Binance Chain with a focus on stablecoins.
 
-Yield Farming Platforms:
+### Yield Farming Platforms:
 
-Yearn Finance: A DeFi platform that aggregates yield-generating strategies across various protocols.
+[**Yearn Finance:**](https://yearn.fi/) A DeFi platform that aggregates yield-generating strategies across various protocols.
 
-Convex Finance: A platform that optimizes Curve LP token yields.
+[**Convex Finance:**](https://www.convexfinance.com/) A platform that optimizes Curve LP token yields.
 
-Badger Finance: A platform that offers vaults for various DeFi strategies, including stablecoin and Bitcoin yield farming.
+[**Badger Finance:**](https://badger.com/) A platform that offers vaults for various DeFi strategies, including stablecoin and Bitcoin yield farming.
 
-Harvest Finance: A platform that automates yield farming strategies across various DeFi protocols.
+[**Harvest Finance:**](https://www.harvest.finance/) A platform that automates yield farming strategies across various DeFi protocols.
 
-#### Other DeFi Platforms:
+### Other DeFi Platforms:
 
-Synthetix: A platform for synthetic asset trading, allowing users to trade assets like stocks and commodities without needing to hold the underlying assets.
+[**Synthetix:**](https://synthetix.io/) A platform for synthetic asset trading, allowing users to trade assets like stocks and commodities without needing to hold the underlying assets.
 
-Uniswap V3: The latest version of Uniswap with concentrated liquidity pools for more efficient capital allocation.
+[**Uniswap V3:**](https://app.uniswap.org/) The latest version of Uniswap with concentrated liquidity pools for more efficient capital allocation.
 
-Balancer: A DEX with customizable liquidity pools that can be tailored to specific needs.
+[**Balancer:**](https://balancer.fi/) A DEX with customizable liquidity pools that can be tailored to specific needs.
 
-OlympusDAO: A decentralized reserve currency protocol with a focus on algorithmic price stability.
+[**OlympusDAO:**](https://www.olympusdao.finance/) A decentralized reserve currency protocol with a focus on algorithmic price stability.
 
+## Non-fungible token (NFT) marketplaces
 
-### Non-fungible token (NFT) marketplaces
+### General Marketplaces:
 
-General Marketplaces:
+[**OpenSea:**](https://opensea.io/) The largest and most well-known NFT marketplace, offering a wide variety of NFTs across different categories like art, music, collectibles, and more.
 
-OpenSea: The largest and most well-known NFT marketplace, offering a wide variety of NFTs across different categories like art, music, collectibles, and more.
+[**Rarible:**](https://rarible.com/) A community-owned marketplace with a focus on empowering creators and collectors. It supports multiple blockchains and offers unique features like fractional ownership.
 
-Rarible: A community-owned marketplace with a focus on empowering creators and collectors. It supports multiple blockchains and offers unique features like fractional ownership.
+[**SuperRare:**](https://superrare.com/) Known for its curated selection of high-quality art NFTs, featuring works by established and emerging artists.
 
-SuperRare: Known for its curated selection of high-quality art NFTs, featuring works by established and emerging artists.
+[**Foundation:**](https://foundation.app/) Another curated marketplace focused on high-end art NFTs, with a rigorous application process for creators.
 
-Foundation: Another curated marketplace focused on high-end art NFTs, with a rigorous application process for creators.
+### Specialized Marketplaces:
 
-Specialized Marketplaces:
+[**Axie Infinity Marketplace:**](https://app.axieinfinity.com/marketplace/) The dedicated marketplace for the popular play-to-earn game Axie Infinity, where players can buy, sell, and breed their in-game NFT creatures.
 
-Axie Infinity Marketplace: The dedicated marketplace for the popular play-to-earn game Axie Infinity, where players can buy, sell, and breed their in-game NFT creatures.
+[**NBA Top Shot:**](https://nbatopshot.com/marketplace) The official marketplace for NBA Top Shot NFTs, which are short video highlights tokenized as NFTs.
 
-NBA Top Shot: The official marketplace for NBA Top Shot NFTs, which are short video highlights tokenized as NFTs.
+[**Theta Drop:**](https://www.thetadrop.com/) A marketplace focused on NFTs for media and entertainment, including film, music, and esports.
 
-Theta Drop: A marketplace focused on NFTs for media and entertainment, including film, music, and esports.
+[**Crypto.com NFT:**](https://crypto.com/nft) The NFT marketplace from the popular cryptocurrency exchange Crypto.com, offering a variety of NFTs across different categories.
 
-Crypto.com NFT: The NFT marketplace from the popular cryptocurrency exchange Crypto.com, offering a variety of NFTs across different categories.
+### Other Notable Marketplaces:
 
-Other Notable Marketplaces:
+[**Nifty Gateway:**](https://www.niftygateway.com/marketplace) A curated marketplace with a focus on high-profile drops and collaborations.
 
-Nifty Gateway: A curated marketplace with a focus on high-profile drops and collaborations.
+[**Mintable:**](https://mintable.com/) A user-friendly platform for minting and selling NFTs, with a variety of features for creators.
 
-Mintable: A user-friendly platform for minting and selling NFTs, with a variety of features for creators.
+[**KnownOrigin:**](https://knownorigin.io/) A curated marketplace for digital art NFTs, with a focus on supporting independent artists.
 
-KnownOrigin: A curated marketplace for digital art NFTs, with a focus on supporting independent artists.
+[**The Sandbox:**](https://www.sandbox.game/en/shop/
+) A metaverse platform where users can buy and sell virtual land and other NFTs.
 
-The Sandbox: A metaverse platform where users can buy and sell virtual land and other NFTs.
+## Crypto payment processors
 
-### Crypto payment processors
+[**BitPay:**](https://bitpay.com/business/) One of the oldest and most well-established crypto payment processors, BitPay supports a wide range of cryptocurrencies and offers a variety of features for businesses, including invoices, subscriptions, and point-of-sale payments. 
 
-BitPay: One of the oldest and most well-established crypto payment processors, BitPay supports a wide range of cryptocurrencies and offers a variety of features for businesses, including invoices, subscriptions, and point-of-sale payments. 
+[**Coinbase Commerce:**](https://www.coinbase.com/commerce) A popular option for businesses that already use Coinbase, Coinbase Commerce offers a simple and easy-to-use platform for accepting crypto payments. It supports a limited number of cryptocurrencies, but it is a good choice for businesses that are looking for a straightforward solution. 
 
-Coinbase Commerce: A popular option for businesses that already use Coinbase, Coinbase Commerce offers a simple and easy-to-use platform for accepting crypto payments. It supports a limited number of cryptocurrencies, but it is a good choice for businesses that are looking for a straightforward solution. 
+[**Coinify:**](https://www.coinify.com/) A popular choice for businesses in Europe, Coinify offers a variety of features, including instant settlements, currency conversion, and risk management tools. It supports a wide range of cryptocurrencies and fiat currencies. 
 
-Coinify: A popular choice for businesses in Europe, Coinify offers a variety of features, including instant settlements, currency conversion, and risk management tools. It supports a wide range of cryptocurrencies and fiat currencies. 
+[**CoinsPaid:**](https://coinspaid.com/crypto-payment-gateway/) A versatile option that supports over 300 cryptocurrencies, CoinsPaid offers a variety of features for businesses, including invoices, subscriptions, and donations. It also has a built-in exchange that allows businesses to convert cryptocurrencies to fiat currencies. 
 
-CoinsPaid: A versatile option that supports over 300 cryptocurrencies, CoinsPaid offers a variety of features for businesses, including invoices, subscriptions, and donations. It also has a built-in exchange that allows businesses to convert cryptocurrencies to fiat currencies. 
-
-TripleA: A well-established payment processor with a focus on security and compliance, TripleA supports a wide range of cryptocurrencies and fiat currencies. It offers a variety of features for businesses, including invoices, subscriptions, and mass payouts. 
+[**TripleA:**](https://triple-a.io/) A well-established payment processor with a focus on security and compliance, TripleA supports a wide range of cryptocurrencies and fiat currencies. It offers a variety of features for businesses, including invoices, subscriptions, and mass payouts. 
 
 [**NOWPayments:**](https://nowpayments.io/) A user-friendly option that supports over 70 cryptocurrencies, NOWPayments offers a variety of features for businesses, including invoices, subscriptions, and donations. It also has a built-in exchange that allows businesses to convert cryptocurrencies to fiat currencies.
 
-
-### Crypto-to-fiat on-ramps and off-ramps
+## Crypto-to-fiat on-ramps and off-ramps
 
 On-ramps allow you to convert your fiat currency (like USD, EUR, etc.) into cryptocurrency, while off-ramps enable you to do the opposite – sell your crypto and receive fiat currency back.
 
 Here's a list of popular Crypto-to-fiat on-ramps and off-ramps:
 
-#### On-ramps:
+### On-ramps:
 
 Centralized Exchanges (CEXs): These are established platforms like Coinbase, Binance, and Kraken that offer a user-friendly interface for buying crypto with fiat. They generally have high liquidity and tight spreads, but may charge higher fees.
 Coinbase crypto exchange
@@ -258,7 +261,7 @@ MoonPay crypto payment processor
 www.reddit.com
 MoonPay crypto payment processor
 
-#### Off-ramps:
+### Off-ramps:
 
 CEXs: Similar to on-ramps, CEXs also allow you to sell your crypto and withdraw fiat directly to your bank account. However, withdrawal fees and processing times may vary.
 P2P Marketplaces: Offloading your crypto on P2P platforms can offer flexibility and potentially lower fees, but requires finding a suitable buyer and managing the transaction yourself.
@@ -274,9 +277,9 @@ Bitrefill crypto gift card platform
 Debit Cards: Crypto-backed debit cards like Crypto.com Visa Card and Binance Card allow you to spend your crypto directly at any merchant that accepts Visa or Mastercard. This eliminates the need to sell your crypto first, but fees and exchange rates may apply.
 Crypto.com Visa Card
 
-### Crypto tax services 
+## Crypto tax services 
 
-Software:
+### Software:
 
 CoinLedger: Formerly known as CryptoTrader.Tax, CoinLedger offers easy importing of transaction history, automation of tax reports and form filling, and supports various tax software integrations. Pricing is tiered based on transaction volume.
 
@@ -288,7 +291,7 @@ TurboTax Investor Center: A well-established tax software provider that has adde
 
 ZenLedger: Integrates with a large number of exchanges and wallets, and offers features like tax optimization and audit support.
 
-Accountants:
+### Accountants:
 
 CountDeFi: Specializes in global technical DeFi crypto tax reporting. Well versed in IDO, Staking, Liquidity Pools, Bridged Transactions, NFTs and all the other troublesome DeFi transactions.
 
@@ -302,7 +305,7 @@ Bitcounts Inc.: A multinational crypto accounting firm with deep expertise in cr
 
 Nexus Tax & Financial Solutions: Can help with the preparation & lodgment of individual Tax Returns. 
 
-Additional Resources:
+### Additional Resources:
 
 IRS Cryptocurrency Tax Guidance: The official IRS website provides information on how to report cryptocurrency transactions on your tax return.
 
@@ -310,9 +313,9 @@ CoinTracker: Offers a free crypto tax calculator and portfolio tracker.
 
 Bitcoin.tax: Another free crypto tax calculator with some paid features. 
 
-### Crypto insurance
+## Crypto insurance
 
-Traditional Crypto Insurance:
+### Traditional Crypto Insurance
 
 Lloyd's of London: One of the oldest and most reputable insurance markets in the world, Lloyd's began offering crypto coverage in 2021. They provide insurance for custodians, exchanges, and institutional investors against theft, hacks, and other losses. 
 
@@ -324,7 +327,7 @@ XL Catlin: A global insurance and reinsurance company, XL Catlin offers crypto i
 
 Axis Specialty: A specialty insurance company, Axis Specialty offers crypto insurance for a variety of risks, including theft, hacks, and business interruption.
 
-#### Decentralized Crypto Insurance (DeFi Insurance):
+### Decentralized Crypto Insurance (DeFi Insurance)
 
 Nexus Mutual: A mutual insurance company built on the Ethereum blockchain, Nexus Mutual offers coverage for smart contracts, decentralized exchanges, and other DeFi applications.
 
