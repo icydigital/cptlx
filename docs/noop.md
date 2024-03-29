@@ -1,8 +1,11 @@
 # TODO 
 
---> Find reliable sources (by category) 
+some todos might be noopish or rubbish, but 
 
+--> find reliable sources (by category) 
 --> find and observe financial blogs/information centers  
+--> declare which services provide Crypto to fiat on ramp and off-ramp simultanuesly 
+--> investigate and use the best 
 
 # check these
 
@@ -24,3 +27,8 @@ www.ledgerinsights.com
 nftplazas.com  
 superrare.com  
 www.rootstrap.com
+Bitrefill 
+Gyft 
+
+
+Unslashed Finance: A DeFi insurance protocol, Unslashed Finance offers coverage for a variety of DeFi risks, including hacks, exploits, and rug pulls.

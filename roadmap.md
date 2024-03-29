@@ -6,7 +6,8 @@ While Unstoppable Domains doesn't directly host dApps, it works seamlessly with 
 1. User Authentication:
 
 DApps can integrate Unstoppable Domains' libraries or API to allow users to log in with their human-readable UD domain instead of complex wallet addresses.
-This improves user experience and accessibility.
+This improves user experience and accessibility. 
+
 2. Pointing a UD Domain to your DApp:
 
 You can't directly host your DApp code on Unstoppable Domains. However, you can point your UD domain to the web server where your DApp is hosted.

@@ -1,10 +1,11 @@
 # cptlx
 
-- (web3|unstoppable domain) app listing all financial services in the crypto/blockchain industry 
+(web3|unstoppable domain)
+- MVP: dapp listing all financial services in the web3 industry 
 
 Note: for the Hinterkopf / discussion with peers ---> prevent sammelsurium of services 
 
-# financial crypto/blockchain services
+# financial services in the web3 industry
 
 ## Overview
 
@@ -232,109 +233,111 @@ integration with a wide range of exchanges and wallets as well as support for a 
 
 [**NOWPayments:**](https://nowpayments.io/) A user-friendly option that supports over 70 cryptocurrencies, NOWPayments offers a variety of features for businesses, including invoices, subscriptions, and donations. It also has a built-in exchange that allows businesses to convert cryptocurrencies to fiat currencies.
 
-## Crypto-to-fiat on-ramps and off-ramps
+## Crypto-to-fiat on-ramps and fiat-to-crypto off-ramps
 
 On-ramps allow you to convert your fiat currency (like USD, EUR, etc.) into cryptocurrency, while off-ramps enable you to do the opposite – sell your crypto and receive fiat currency back.
 
-Here's a list of popular Crypto-to-fiat on-ramps and off-ramps:
+Here's a list of popular Crypto-to-fiat on-ramps and fiat-to-crypto off-ramps:
 
-### On-ramps:
+### On-ramps and off-ramps
 
-Centralized Exchanges (CEXs): These are established platforms like Coinbase, Binance, and Kraken that offer a user-friendly interface for buying crypto with fiat. They generally have high liquidity and tight spreads, but may charge higher fees.
-Coinbase crypto exchange
+There are definitely services that provide both fiat-to-crypto (on-ramps) and crypto-to-fiat (off-ramps) functionalities. These platforms act as a one-stop shop for converting between traditional currencies and cryptocurrencies.
+#### Centralized Exchanges (CEXs) 
 
-www.pymnts.com
-Coinbase crypto exchange
-Peer-to-Peer (P2P) Marketplaces: Platforms like LocalBitcoins and Paxful connect buyers and sellers directly, allowing for more flexible transactions and potentially lower fees. However, they may involve more manual steps and have higher counterparty risk.
-LocalBitcoins P2P marketplace
+These are established platforms like Coinbase, Binance, and Kraken that offer a user-friendly interface for buying crypto with fiat. They generally have high liquidity and tight spreads, but may charge higher fees.
 
-coingeek.com
-LocalBitcoins P2P marketplace
-Crypto Brokers: Services like Robinhood and eToro offer fractional share purchases of crypto, making them accessible to smaller investors. They may have limited crypto selection and potentially higher fees.
-Robinhood crypto broker
+[**Ramp:**](https://ramp.network/) 
 
-newsroom.aboutrobinhood.com
-Robinhood crypto broker
-Payment Processors: Some payment processors like MoonPay and Ramp integrate with various platforms and wallets, enabling seamless fiat-to-crypto conversions. They often have fast transaction times and competitive fees.
-MoonPay crypto payment processor
+[**Moonpay:**](https://www.moonpay.com/business/onramps) 
 
-www.reddit.com
-MoonPay crypto payment processor
+[**Coinbase:**](https://www.coinbase.com/de/) 
 
-### Off-ramps:
+[**Binance:**](https://www.binance.com/en) 
 
-CEXs: Similar to on-ramps, CEXs also allow you to sell your crypto and withdraw fiat directly to your bank account. However, withdrawal fees and processing times may vary.
-P2P Marketplaces: Offloading your crypto on P2P platforms can offer flexibility and potentially lower fees, but requires finding a suitable buyer and managing the transaction yourself.
-Crypto ATMs: These physical machines allow you to convert your crypto into cash instantly. However, they typically have high fees and limited locations.
-Bitcoin ATM
-tr.wikipedia.org
-Bitcoin ATM
-Gift Cards: Services like Bitrefill and Gyft allow you to purchase gift cards from popular retailers using your crypto. This is a convenient way to spend your crypto without directly converting it to fiat.
-Bitrefill crypto gift card platform
+[**Kraken:**](https://www.kraken.com/) A reputable exchange with strong security features and good customer support.
 
-www.coindesk.com
-Bitrefill crypto gift card platform
-Debit Cards: Crypto-backed debit cards like Crypto.com Visa Card and Binance Card allow you to spend your crypto directly at any merchant that accepts Visa or Mastercard. This eliminates the need to sell your crypto first, but fees and exchange rates may apply.
-Crypto.com Visa Card
+[**Bitstamp:**](https://www.bitstamp.net/) 
+
+[**Gemini:**](https://www.bitstamp.net/)
+
+#### Peer-to-Peer (P2P) marketplaces
+
+[**Paxful:**](https://paxful.com/) 
+
+[**LocalBitcoins:**](https://localbitcoins.com/) 
+
+[**Bisq:**](https://bisq.network/)
+
+#### Cryptocurrency ATMs 
+
+These ATMs allow users to buy crypto with cash. However, they typically have higher fees than other on-ramp options.
+
+[**Coinmap:**](https://coinatmradar.com/) is a comprehensive resource that lists cryptocurrency ATMs and merchants all over the world. You can search for ATMs by location, currency, and operator.
+
+[**Bitcoin.com:**](https://coinatmradar.com/bitcoin-atm-near-me/)
+
+### Off-ramps
+
+<!-- -->
 
 ## Crypto tax services 
 
 ### Software:
 
-CoinLedger: Formerly known as CryptoTrader.Tax, CoinLedger offers easy importing of transaction history, automation of tax reports and form filling, and supports various tax software integrations. Pricing is tiered based on transaction volume.
+[**CoinLedger:**](https://coinledger.io/) Formerly known as CryptoTrader.Tax, CoinLedger offers easy importing of transaction history, automation of tax reports and form filling, and supports various tax software integrations. Pricing is tiered based on transaction volume.
 
-Koinly: Beginner-friendly platform that integrates with hundreds of crypto exchanges, wallets, and DeFi platforms. It takes just 20 minutes to generate a tax report and over 20 countries are supported.
+[**Koinly:**](https://koinly.io/) Beginner-friendly platform that integrates with hundreds of crypto exchanges, wallets, and DeFi platforms. It takes just 20 minutes to generate a tax report and over 20 countries are supported.
 
-TokenTax: Supports a wide range of cryptocurrencies and exchanges, and offers features like tax loss harvesting and automatic generation of tax forms.
+[**TokenTax:**](https://tokentax.co/) Supports a wide range of cryptocurrencies and exchanges, and offers features like tax loss harvesting and automatic generation of tax forms.
 
-TurboTax Investor Center: A well-established tax software provider that has added support for cryptocurrency transactions. Offers basic and advanced features, depending on your needs.
+[**TurboTax Investor Center:**](https://turbotax.intuit.com/personal-taxes/crypto-taxes/) A well-established tax software provider that has added support for cryptocurrency transactions. Offers basic and advanced features, depending on your needs.
 
-ZenLedger: Integrates with a large number of exchanges and wallets, and offers features like tax optimization and audit support.
+[**ZenLedger:**](https://www.zenledger.io/) Integrates with a large number of exchanges and wallets, and offers features like tax optimization and audit support.
 
 ### Accountants:
 
-CountDeFi: Specializes in global technical DeFi crypto tax reporting. Well versed in IDO, Staking, Liquidity Pools, Bridged Transactions, NFTs and all the other troublesome DeFi transactions.
+[**CountDeFi:**](https://countdefi.com/) Specializes in global technical DeFi crypto tax reporting. Well versed in IDO, Staking, Liquidity Pools, Bridged Transactions, NFTs and all the other troublesome DeFi transactions.
 
-Bitcounts Inc.: A multinational crypto accounting firm with deep expertise in cryptocurrency taxation and blockchain accounting having offices in the US, Canada, and India.
+[**Bitcounts Inc.:**](https://bitcounts.org/) A multinational crypto accounting firm with deep expertise in cryptocurrency taxation and blockchain accounting having offices in the US, Canada, and India.
 
-1040 Abroad: Helps Americans overseas file their U.S. tax returns & catch up with late taxes using IRS amnesty programs & financial strategies to save money.
+[**1040 Abroad:**](https://1040abroad.com/) Helps Americans overseas file their U.S. tax returns & catch up with late taxes using IRS amnesty programs & financial strategies to save money.
 
-360 Partners: Offer proactive accounting solutions and tax planning in Australia.
+[**360 Partners:**](https://360partners.com.au/) Offer proactive accounting solutions and tax planning in Australia.
 
-786 Accounting: Specializes in capital gain and crypto tax.
+<!-- 786 Accounting: Specializes in capital gain and crypto tax. -->
 
-Nexus Tax & Financial Solutions: Can help with the preparation & lodgment of individual Tax Returns. 
+[**Nexus Tax & Financial Solutions:**](https://www.nexusfinancialsolutions.com/) Can help with the preparation & lodgment of individual Tax Returns. 
 
 ### Additional Resources:
 
-IRS Cryptocurrency Tax Guidance: The official IRS website provides information on how to report cryptocurrency transactions on your tax return.
+[**IRS Cryptocurrency Tax Guidance:**](https://www.irs.gov/) The official IRS website provides information on how to report cryptocurrency transactions on your tax return.
 
-CoinTracker: Offers a free crypto tax calculator and portfolio tracker. 
+[**CoinTracker:**](https://www.cointracker.io/) Offers a free crypto tax calculator and portfolio tracker. 
 
-Bitcoin.tax: Another free crypto tax calculator with some paid features. 
+[**Bitcoin.tax:**](https://bitcoin.tax/) Another free crypto tax calculator with some paid features. 
 
 ## Crypto insurance
 
 ### Traditional Crypto Insurance
 
-Lloyd's of London: One of the oldest and most reputable insurance markets in the world, Lloyd's began offering crypto coverage in 2021. They provide insurance for custodians, exchanges, and institutional investors against theft, hacks, and other losses. 
+[**Lloyd's of London:**](https://www.lloyds.com/) One of the oldest and most reputable insurance marketplace in the world, Lloyd's began offering crypto coverage in 2021. They provide insurance for custodians, exchanges, and institutional investors against theft, hacks, and other losses. 
 
-Marsh: A global insurance broker and risk advisor, Marsh offers tailored crypto insurance solutions for businesses of all sizes. Their coverage can include theft, hacks, and even losses due to fraudulent transactions. 
+[**Marsh:**](https://www.marsh.com/en/home.html) A global insurance broker and risk advisor, Marsh offers tailored crypto insurance solutions for businesses of all sizes. Their coverage can include theft, hacks, and even losses due to fraudulent transactions. 
 
-Aon: Another major insurance broker, Aon provides crypto insurance for custodians, exchanges, and asset managers. Their coverage can include theft, hacks, and even errors and omissions on the part of the insured party.
+[**Aon:**](https://www.aon.com/industry-expertise/financial-institution-risk-management/digital-assets-and-blockchain.jsp) Another major insurance broker, Aon provides crypto insurance for custodians, exchanges, and asset managers. Their coverage can include theft, hacks, and even errors and omissions on the part of the insured party.
 
-XL Catlin: A global insurance and reinsurance company, XL Catlin offers crypto insurance for custodians, exchanges, and miners. Their coverage can include theft, hacks, and even physical damage to mining equipment.
+[**XL Catlin:**](https://axaxl.com/) A global insurance and reinsurance company, XL Catlin offers crypto insurance for custodians, exchanges, and miners. Their coverage can include theft, hacks, and even physical damage to mining equipment.
 
-Axis Specialty: A specialty insurance company, Axis Specialty offers crypto insurance for a variety of risks, including theft, hacks, and business interruption.
+[**Axis Specialty:**](https://www.axiscapital.com/) A specialty insurance company, Axis Specialty offers crypto insurance for a variety of risks, including theft, hacks, and business interruption.
 
 ### Decentralized Crypto Insurance (DeFi Insurance)
 
-Nexus Mutual: A mutual insurance company built on the Ethereum blockchain, Nexus Mutual offers coverage for smart contracts, decentralized exchanges, and other DeFi applications.
+[**Nexus Mutual:**](https://nexusmutual.io/) A mutual insurance company built on the Ethereum blockchain, Nexus Mutual offers coverage for smart contracts, decentralized exchanges, and other DeFi applications.
 
-Unslashed Finance: A DeFi insurance protocol, Unslashed Finance offers coverage for a variety of DeFi risks, including hacks, exploits, and rug pulls.
+[**Unslashed Finance:**](https://unslashed.finance/?utm_source=coinbase&utm_medium=web) A DeFi insurance protocol, Unslashed Finance offers coverage for a variety of DeFi risks, including hacks, exploits, and rug pulls.
 
-Cover Protocol: A DeFi insurance protocol, Cover Protocol offers parametric insurance, which pays out automatically if certain conditions are met, such as a drop in the price of an asset.
+[**Tidal Finance:**](https://tidal.finance/) A DeFi insurance protocol, Tidal Finance offers coverage for stablecoins, pegged assets, and other DeFi products.
 
-Tidal Finance: A DeFi insurance protocol, Tidal Finance offers coverage for stablecoins, pegged assets, and other DeFi products.
+[**Bridge Mutual:**](https://bridgemutual.io/) A DeFi insurance protocol, Bridge Mutual offers coverage for a variety of DeFi risks, including hacks, exploits, and impermanent loss.
 
-Bridge Mutual: A DeFi insurance protocol, Bridge Mutual offers coverage for a variety of DeFi risks, including hacks, exploits, and impermanent loss.
+[**InsurAce:**](https://app.insurace.io/) 
