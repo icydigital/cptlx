@@ -1,39 +1,4 @@
-# cptlx
-
-(web3|unstoppable domain)
-- MVP: dapp listing all financial services in the web3 industry 
-
-Note: for the Hinterkopf / discussion with peers ---> prevent sammelsurium of services 
-
-# financial services in the web3 industry
-
-## Overview
-
-The following is a list of financial services that are now available in the cryptocurrency industry:
-
-**Crypto exchanges:** These platforms allow users to buy, sell, and trade cryptocurrencies.  
-
-**Crypto custodians:** These companies store cryptocurrencies for users on a secure basis.  
-
-**Crypto asset management companies:** These companies invest in cryptocurrencies on behalf of their clients.  
-
-**Crypto lending platforms:** These platforms allow users to lend out their cryptocurrencies in exchange for interest.  
-
-**Crypto borrowing platforms:** These platforms allow users to borrow cryptocurrencies against collateral.  
-
-**Decentralized finance (DeFi) platforms:** These platforms offer a variety of financial services, such as lending, borrowing, and trading, without the need for a central authority.  
-
-**Non-fungible token (NFT) marketplaces:** These platforms allow users to buy, sell, and trade NFTs.  
-
-**Crypto payment processors:** These companies allow businesses to accept cryptocurrencies as payment.  
-
-**Crypto-to-fiat on-ramps and off-ramps:** These platforms allow users to convert between cryptocurrencies and fiat currencies.  
-
-**Crypto tax services:** These companies help users to calculate and file their cryptocurrency taxes.  
-
-**Crypto insurance:** This type of insurance protects users against losses caused by cryptocurrency theft or hacks.  
-
-In addition to these services, there are a number of other financial services that are still under development in the cryptocurrency industry. For example, some companies are developing decentralized exchanges and lending platforms that are designed to be more efficient and secure than traditional financial institutions. Other companies are developing crypto-based derivatives and other financial products that are designed to provide investors with more sophisticated investment options. 
+# financial crypto services
 
 ## Crypto exchanges
 
@@ -92,7 +57,7 @@ integration with a wide range of exchanges and wallets as well as support for a 
 
 [**Binance Custody:**](https://www.binance.com/en/how-to-buy/custody-token) Binance Custody is a subsidiary of Binance, a leading cryptocurrency exchange. They offer institutional-grade security, insurance coverage, a wide range of supported assets
 
-## Crypto asset management companies 
+## Crypto asset management companies
 
 [**Grayscale:**](https://www.grayscale.com/) Grayscale is the world's largest digital currency asset manager. It offers a variety of investment products, including trusts that track the price of Bitcoin and Ethereum. 
 
@@ -144,7 +109,7 @@ integration with a wide range of exchanges and wallets as well as support for a 
 
 ## Decentralized finance (DeFi) platforms
 
-### Decentralized Exchanges (DEXs):
+### Decentralized Exchanges (DEXs)
 
 [**Uniswap:**](https://uniswap.org/) A leading DEX known for its user-friendly interface and deep liquidity.
 
@@ -156,7 +121,7 @@ integration with a wide range of exchanges and wallets as well as support for a 
 
 [**1inch:**](https://1inch.io/) An aggregator DEX that searches multiple DEXs for the best prices on token swaps.
 
-### Decentralized Lending and Borrowing:
+### Decentralized Lending and Borrowing
 
 [**Aave:**](https://aave.com/) A leading DeFi lending platform offering a variety of features like variable and fixed interest rates.
 
@@ -166,7 +131,7 @@ integration with a wide range of exchanges and wallets as well as support for a 
 
 [**Venus:**](https://venus.io/) A DeFi lending platform on the Binance Chain with a focus on stablecoins.
 
-### Yield Farming Platforms:
+### Yield Farming Platforms
 
 [**Yearn Finance:**](https://yearn.fi/) A DeFi platform that aggregates yield-generating strategies across various protocols.
 
@@ -176,7 +141,7 @@ integration with a wide range of exchanges and wallets as well as support for a 
 
 [**Harvest Finance:**](https://www.harvest.finance/) A platform that automates yield farming strategies across various DeFi protocols.
 
-### Other DeFi Platforms:
+### Other DeFi Platforms
 
 [**Synthetix:**](https://synthetix.io/) A platform for synthetic asset trading, allowing users to trade assets like stocks and commodities without needing to hold the underlying assets.
 
@@ -210,14 +175,14 @@ integration with a wide range of exchanges and wallets as well as support for a 
 
 ### Other Notable Marketplaces:
 
-[**Nifty Gateway:**](https://www.niftygateway.com/marketplace) A curated marketplace with a focus on high-profile drops and collaborations.
+[**Nifty Gateway:**](https://www.niftygateway.com/marketplace) A curated marketplace with a focus on high-profile drops and collaborations. 
 
-[**Mintable:**](https://mintable.com/) A user-friendly platform for minting and selling NFTs, with a variety of features for creators.
+[**Mintable:**](https://mintable.com/) A user-friendly platform for minting and selling NFTs, with a variety of features for creators. 
 
-[**KnownOrigin:**](https://knownorigin.io/) A curated marketplace for digital art NFTs, with a focus on supporting independent artists.
+[**KnownOrigin:**](https://knownorigin.io/) A curated marketplace for digital art NFTs, with a focus on supporting independent artists. 
 
 [**The Sandbox:**](https://www.sandbox.game/en/shop/
-) A metaverse platform where users can buy and sell virtual land and other NFTs.
+) A metaverse platform where users can buy and sell virtual land and other NFTs. 
 
 ## Crypto payment processors
 
@@ -280,9 +245,9 @@ These ATMs allow users to buy crypto with cash. However, they typically have hig
 
 <!-- -->
 
-## Crypto tax services 
+## Crypto tax services
 
-### Software:
+### Software
 
 [**CoinLedger:**](https://coinledger.io/) Formerly known as CryptoTrader.Tax, CoinLedger offers easy importing of transaction history, automation of tax reports and form filling, and supports various tax software integrations. Pricing is tiered based on transaction volume.
 
@@ -294,7 +259,7 @@ These ATMs allow users to buy crypto with cash. However, they typically have hig
 
 [**ZenLedger:**](https://www.zenledger.io/) Integrates with a large number of exchanges and wallets, and offers features like tax optimization and audit support.
 
-### Accountants:
+### Accountants
 
 [**CountDeFi:**](https://countdefi.com/) Specializes in global technical DeFi crypto tax reporting. Well versed in IDO, Staking, Liquidity Pools, Bridged Transactions, NFTs and all the other troublesome DeFi transactions.
 
@@ -308,7 +273,7 @@ These ATMs allow users to buy crypto with cash. However, they typically have hig
 
 [**Nexus Tax & Financial Solutions:**](https://www.nexusfinancialsolutions.com/) Can help with the preparation & lodgment of individual Tax Returns. 
 
-### Additional Resources:
+### Additional Resources
 
 [**IRS Cryptocurrency Tax Guidance:**](https://www.irs.gov/) The official IRS website provides information on how to report cryptocurrency transactions on your tax return.
 

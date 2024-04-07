@@ -32,3 +32,19 @@ Gyft
 
 
 Unslashed Finance: A DeFi insurance protocol, Unslashed Finance offers coverage for a variety of DeFi risks, including hacks, exploits, and rug pulls.
+
+
+# from README.md to web3 financial services json 
+
+This is a simplified representation, but it captures the key structure:
+
+The top-level key is the main heading ("financial services in the web3 industry").
+Subheadings become nested objects under the main key.
+Information within subheadings is stored either as plain text or as an array of objects for lists (e.g., list of crypto exchanges).
+
+
+
+// Example usage
+parseTextIntoSections('../README.md')
+  .then(sections => console.log(sections))
+  .catch(err => console.error(err));
