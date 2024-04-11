@@ -9,31 +9,51 @@ function createFCSObjFromDocs(filePath) {
       }
 
       const sections = {};
+      let currentLevel = 0;
+      let currentSection = '';
       let firstLevelSection = '';
       let secondLevelSection = '';
       let thirdLevelSection = '';
       let fourthLevelSection = '';
 
       for (const line of data.split('\n')) {
-        if (line.startsWith('# ')) {
-          firstLevelSection = line.toLowerCase().replace(/^(.){1}/,'').replace(/\W/g, '_').trim();
-          sections[firstLevelSection] = {};
-        } 
-        if (line.startsWith('## ')) {
-          secondLevelSection = line.toLowerCase().replace(/^(.){2}/,'').replace(/\W/g, '_').trim()
-          sections[firstLevelSection][secondLevelSection] = {}
-        } 
-        if (line.startsWith('### ')) {
-          thirdLevelSection = line.toLowerCase().replace(/^(.){3}/,'').replace(/\W/g, '_').trim()
-          sections[firstLevelSection][secondLevelSection][thirdLevelSection] = {}
-        } 
-        if (line.startsWith('#### ')) {
-          fourthLevelSection = line.toLowerCase().replace(/^(.){4}/,'').replace(/\W/g, '_').trim()
-           sections[firstLevelSection][secondLevelSection][thirdLevelSection][fourthLevelSection] = {}
-        } 
-        // if (line.startsWith('[')) {
-        //   console.log(line)
-        // }
+        const match = line.match(/^([#]{1,4}) (.*) |^\[/);
+        if (match) {
+          let newLevel = match[1] ? match[1].length : currentLevel; // Handle undefined match[1]
+          if (newLevel == 1){
+            firstLevelSection = line
+            sections[firstLevelSection] = {}
+          } else if (newLevel == 2) {
+            if (newLevel == currentLevel) {
+              sections[firstLevelSection][secondLevelSection] += line
+            }
+            secondLevelSection = line
+            sections[firstLevelSection][secondLevelSection] = {}
+          } else if (newLevel == 3) {
+            if (newLevel == currentLevel) {
+              sections[firstLevelSection][secondLevelSection][thirdLevelSection] += line
+            }
+            thirdLevelSection = line
+            sections[firstLevelSection][secondLevelSection][thirdLevelSection] = {}
+          } else if (newLevel > 3) {
+            if (newLevel == currentLevel) {
+              sections[firstLevelSection][secondLevelSection][thirdLevelSection][fourthLevelSection] += line
+            }
+            fourthLevelSection = line
+            sections[firstLevelSection][secondLevelSection][thirdLevelSection][fourthLevelSection] = {}
+          }
+          console.log(
+            { 
+              "currentLevel": currentLevel, 
+              "newLevel": newLevel, 
+              "match": match[1], 
+              "line": line
+            }
+          );
+          currentLevel = newLevel;
+        } else {
+          continue;
+        }
       }
       resolve(sections);
     });

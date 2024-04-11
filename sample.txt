@@ -1,0 +1,6 @@
+{
+  currentLevel: 0,
+  newLevel: 1,
+  match: '#',
+  line: '# financial crypto services\r'
+}
