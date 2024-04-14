@@ -17,39 +17,51 @@ function createFCSObjFromDocs(filePath) {
       let fourthLevelSection = '';
 
       for (const line of data.split('\n')) {
+
         const match = line.match(/^([#]{1,4}) (.*) |^\[/);
         if (match) {
           let newLevel = match[1] ? match[1].length : currentLevel; // Handle undefined match[1]
           if (newLevel == 1){
             firstLevelSection = line
             sections[firstLevelSection] = {}
-          } else if (newLevel == 2) {
+          }  if (newLevel == 2) {
             if (newLevel == currentLevel) {
-              sections[firstLevelSection][secondLevelSection] += line
+              sections[firstLevelSection][secondLevelSection] = []
+              sections[firstLevelSection][secondLevelSection].push(line)
             }
             secondLevelSection = line
             sections[firstLevelSection][secondLevelSection] = {}
-          } else if (newLevel == 3) {
+          } if (newLevel == 3) {
             if (newLevel == currentLevel) {
-              sections[firstLevelSection][secondLevelSection][thirdLevelSection] += line
-            }
+              sections[firstLevelSection][secondLevelSection][thirdLevelSection].push(line)
+            } else {
             thirdLevelSection = line
-            sections[firstLevelSection][secondLevelSection][thirdLevelSection] = {}
-          } else if (newLevel > 3) {
+            sections[firstLevelSection][secondLevelSection][thirdLevelSection] = [] 
+            }
+          }  if (newLevel > 3) {
             if (newLevel == currentLevel) {
-              sections[firstLevelSection][secondLevelSection][thirdLevelSection][fourthLevelSection] += line
+              fourthLevelSection = line
+              if (line.startsWith("#### ")) {
+                sections[firstLevelSection][secondLevelSection][thirdLevelSection][fourthLevelSection] = []
+              } 
+              if (line.startsWith("[ ")) {
+                sections[firstLevelSection][secondLevelSection][thirdLevelSection][fourthLevelSection].push(line)
+              }
             }
-            fourthLevelSection = line
-            sections[firstLevelSection][secondLevelSection][thirdLevelSection][fourthLevelSection] = {}
           }
-          console.log(
-            { 
-              "currentLevel": currentLevel, 
-              "newLevel": newLevel, 
-              "match": match[1], 
-              "line": line
-            }
-          );
+          console.log({
+            "math1": match[1], 
+            "line": line,
+            "firstLevelSection": firstLevelSection,
+            "secondLevelSection": secondLevelSection, 
+            "thirdLevelSection": thirdLevelSection, 
+            "fourthLevelSection": fourthLevelSection,
+            "currentLevel": currentLevel,
+            "newLevel": newLevel,
+            "currentSection": currentSection
+          })
+          console.log(sections)
+          console.log("DEBUG MODE :::")
           currentLevel = newLevel;
         } else {
           continue;
