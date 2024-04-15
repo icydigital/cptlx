@@ -21,10 +21,11 @@ function createFCSObjFromDocs(filePath) {
         const match = line.match(/^([#]{1,4}) (.*) |^\[/);
         if (match) {
           let newLevel = match[1] ? match[1].length : currentLevel; // Handle undefined match[1]
-          if (newLevel == 1){
-            firstLevelSection = line
+          if (newLevel == 1 && currentLevel == 0){
+            firstLevelSection = line.toLowerCase().replace(/^(.){1}/,'').trim().replace(/\W/g, '_');
             sections[firstLevelSection] = {}
-          }  if (newLevel == 2) {
+          }  
+          if (newLevel == 2) {
             if (newLevel == currentLevel) {
               sections[firstLevelSection][secondLevelSection] = []
               sections[firstLevelSection][secondLevelSection].push(line)
@@ -49,19 +50,19 @@ function createFCSObjFromDocs(filePath) {
               }
             }
           }
-          console.log({
-            "math1": match[1], 
-            "line": line,
-            "firstLevelSection": firstLevelSection,
-            "secondLevelSection": secondLevelSection, 
-            "thirdLevelSection": thirdLevelSection, 
-            "fourthLevelSection": fourthLevelSection,
-            "currentLevel": currentLevel,
-            "newLevel": newLevel,
-            "currentSection": currentSection
-          })
-          console.log(sections)
-          console.log("DEBUG MODE :::")
+          // console.log({
+          //   "math1": match[1], 
+          //   "line": line,
+          //   "firstLevelSection": firstLevelSection,
+          //   "secondLevelSection": secondLevelSection, 
+          //   "thirdLevelSection": thirdLevelSection, 
+          //   "fourthLevelSection": fourthLevelSection,
+          //   "currentLevel": currentLevel,
+          //   "newLevel": newLevel,
+          //   "currentSection": currentSection
+          // })
+          // console.log(sections)
+          // console.log("DEBUG MODE :::")
           currentLevel = newLevel;
         } else {
           continue;

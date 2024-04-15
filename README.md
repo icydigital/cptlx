@@ -4,7 +4,7 @@
 
 These platforms allow users to buy, sell, and trade cryptocurrencies.
 
-### Centralized Exchanges (CEXs)
+### Centralized Exchanges CEX
 
 [**Coinbase:**](https://www.coinbase.com/) A large and beginner-friendly US-based exchange with over 200 cryptocurrencies supported.
 
@@ -16,7 +16,7 @@ These platforms allow users to buy, sell, and trade cryptocurrencies.
 
 [**Binance.US:**](https://www.binance.us/) The US arm of the world's largest crypto exchange, Binance. Offers a wide variety of coins and features, but not available in all US states.
 
-### Decentralized Exchanges (DEXs):
+### Decentralized Exchanges DEX
 
 [**Uniswap:**](https://uniswap.org/) A leading DEX on the Ethereum blockchain, offering peer-to-peer trading without a central intermediary.
 
@@ -81,7 +81,7 @@ integration with a wide range of exchanges and wallets as well as support for a 
 
 [**Crypto.com:**](https://crypto.com/) Earn interest on your crypto, get rewarded for using their debit card, and access exclusive features.
 
-## Decentralized Crypto Lending Platforms (DeFi)
+## Decentralized Crypto Lending Platforms DeFi
 
 [**Aave:**](https://aave.com/) A leading DeFi lending protocol offering a variety of features, including flash loans.
 
@@ -107,9 +107,9 @@ integration with a wide range of exchanges and wallets as well as support for a 
 
 [**dYdX:**](https://dydx.exchange/) A specialized DeFi derivatives exchange that also offers margin trading and crypto borrowing with leverage.
 
-## Decentralized finance (DeFi) platforms
+## Decentralized finance DeFi platforms
 
-### Decentralized Exchanges (DEXs)
+### Decentralized Exchanges DEX
 
 [**Uniswap:**](https://uniswap.org/) A leading DEX known for its user-friendly interface and deep liquidity.
 
@@ -151,7 +151,7 @@ integration with a wide range of exchanges and wallets as well as support for a 
 
 [**OlympusDAO:**](https://www.olympusdao.finance/) A decentralized reserve currency protocol with a focus on algorithmic price stability.
 
-## Non-fungible token (NFT) marketplaces
+## Non-fungible token NFT marketplaces
 
 ### General Marketplaces:
 
@@ -198,7 +198,7 @@ integration with a wide range of exchanges and wallets as well as support for a 
 
 [**NOWPayments:**](https://nowpayments.io/) A user-friendly option that supports over 70 cryptocurrencies, NOWPayments offers a variety of features for businesses, including invoices, subscriptions, and donations. It also has a built-in exchange that allows businesses to convert cryptocurrencies to fiat currencies.
 
-## Crypto-to-fiat on-ramps and fiat-to-crypto off-ramps
+## Crypto2fiat on-ramps and fiat2crypto off-ramps
 
 On-ramps allow you to convert your fiat currency (like USD, EUR, etc.) into cryptocurrency, while off-ramps enable you to do the opposite – sell your crypto and receive fiat currency back.
 
@@ -207,7 +207,8 @@ Here's a list of popular Crypto-to-fiat on-ramps and fiat-to-crypto off-ramps:
 ### On-ramps and off-ramps
 
 There are definitely services that provide both fiat-to-crypto (on-ramps) and crypto-to-fiat (off-ramps) functionalities. These platforms act as a one-stop shop for converting between traditional currencies and cryptocurrencies.
-#### Centralized Exchanges (CEXs) 
+
+#### Centralized Exchanges CEX
 
 These are established platforms like Coinbase, Binance, and Kraken that offer a user-friendly interface for buying crypto with fiat. They generally have high liquidity and tight spreads, but may charge higher fees.
 
@@ -283,7 +284,7 @@ These ATMs allow users to buy crypto with cash. However, they typically have hig
 
 ## Crypto insurance
 
-### Traditional Crypto Insurance
+### Traditional
 
 [**Lloyd's of London:**](https://www.lloyds.com/) One of the oldest and most reputable insurance marketplace in the world, Lloyd's began offering crypto coverage in 2021. They provide insurance for custodians, exchanges, and institutional investors against theft, hacks, and other losses. 
 
@@ -295,7 +296,7 @@ These ATMs allow users to buy crypto with cash. However, they typically have hig
 
 [**Axis Specialty:**](https://www.axiscapital.com/) A specialty insurance company, Axis Specialty offers crypto insurance for a variety of risks, including theft, hacks, and business interruption.
 
-### Decentralized Crypto Insurance (DeFi Insurance)
+### DeFi
 
 [**Nexus Mutual:**](https://nexusmutual.io/) A mutual insurance company built on the Ethereum blockchain, Nexus Mutual offers coverage for smart contracts, decentralized exchanges, and other DeFi applications.
 
