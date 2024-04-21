@@ -36,6 +36,7 @@ function createFCSObjFromDocs(filePath) {
           let serviceKey = line.substring(0, closingBracketIndex + 1);
           let serviceValue = line.substring(closingBracketIndex + 1); 
           if (sections[firstLevelSection]?.[secondLevelSection]?.[thirdLevelSection]?.[fourthLevelSection]) {
+            console.log({"skey": serviceKey, "sval": serviceValue, "fourthLvlSec": fourthLevelSection})
             sections[firstLevelSection][secondLevelSection][thirdLevelSection][fourthLevelSection][serviceKey] = serviceValue
           } else if (sections[firstLevelSection]?.[secondLevelSection]?.[thirdLevelSection]) {
             sections[firstLevelSection][secondLevelSection][thirdLevelSection][serviceKey] = serviceValue
@@ -44,6 +45,7 @@ function createFCSObjFromDocs(filePath) {
           } else if (sections[firstLevelSection]) {
             sections[firstLevelSection][serviceKey] = serviceValue
           }
+
           // console.log(serviceKey);
           // console.log(serviceValue);  
           // console.log({
