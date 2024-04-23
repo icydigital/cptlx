@@ -153,7 +153,7 @@ integration with a wide range of exchanges and wallets as well as support for a 
 
 ## Non-fungible token NFT marketplaces
 
-### General Marketplaces:
+### General Marketplaces
 
 [**OpenSea:**](https://opensea.io/) The largest and most well-known NFT marketplace, offering a wide variety of NFTs across different categories like art, music, collectibles, and more.
 
@@ -163,7 +163,7 @@ integration with a wide range of exchanges and wallets as well as support for a 
 
 [**Foundation:**](https://foundation.app/) Another curated marketplace focused on high-end art NFTs, with a rigorous application process for creators.
 
-### Specialized Marketplaces:
+### Specialized Marketplaces
 
 [**Axie Infinity Marketplace:**](https://app.axieinfinity.com/marketplace/) The dedicated marketplace for the popular play-to-earn game Axie Infinity, where players can buy, sell, and breed their in-game NFT creatures.
 
@@ -173,7 +173,7 @@ integration with a wide range of exchanges and wallets as well as support for a 
 
 [**Crypto.com NFT:**](https://crypto.com/nft) The NFT marketplace from the popular cryptocurrency exchange Crypto.com, offering a variety of NFTs across different categories.
 
-### Other Notable Marketplaces:
+### Other Notable Marketplaces
 
 [**Nifty Gateway:**](https://www.niftygateway.com/marketplace) A curated marketplace with a focus on high-profile drops and collaborations. 
 
@@ -226,7 +226,7 @@ These are established platforms like Coinbase, Binance, and Kraken that offer a 
 
 [**Gemini:**](https://www.bitstamp.net/)
 
-#### Peer-to-Peer (P2P) marketplaces
+#### Peer-to-Peer P2P marketplaces
 
 [**Paxful:**](https://paxful.com/) 
 

@@ -3,7 +3,7 @@ const createFCSObjFromDocs = require('./index.js')
 
 test('test if financial services object is ...', async function (t) {
     const result = await createFCSObjFromDocs("./README.md");
-    console.log(result)
+    // console.log(result)
     t.ok(result, "obj is truthy");
     t.ok(result.financial_crypto_services, "includes first level object")
     t.ok(result.financial_crypto_services.crypto_exchanges, "includes second level object")
@@ -25,7 +25,10 @@ test('test if financial services object is ...', async function (t) {
     t.ok(result.financial_crypto_services.non_fungible_token_nft_marketplaces.specialized_marketplaces, "includes third level object")
     t.ok(result.financial_crypto_services.non_fungible_token_nft_marketplaces.other_notable_marketplaces, "includes third level object")
     t.ok(result.financial_crypto_services.crypto_payment_processors, "includes second level object")
-    t.ok(result.financial_crypto_services.crypto2fiat_on_ramps_and_fiat2crypto_off_ramps, "includes third level object")
+    t.ok(result.financial_crypto_services.crypto2fiat_on_ramps_and_fiat2crypto_off_ramps, "includes second level object")
+    t.ok(result.financial_crypto_services.crypto2fiat_on_ramps_and_fiat2crypto_off_ramps.on_ramps_and_off_ramps.centralized_exchanges_cex, "includes fourth level object")
+    t.ok(result.financial_crypto_services.crypto2fiat_on_ramps_and_fiat2crypto_off_ramps.on_ramps_and_off_ramps.peer_to_peer_p2p_marketplaces, "includes fourth level object")
+    t.ok(result.financial_crypto_services.crypto2fiat_on_ramps_and_fiat2crypto_off_ramps.on_ramps_and_off_ramps.cryptocurrency_atms, "includes fourth level object")
     t.ok(result.financial_crypto_services.crypto_tax_services, "includes second level object")
     t.ok(result.financial_crypto_services.crypto_tax_services.software, "includes third level object")
     t.ok(result.financial_crypto_services.crypto_tax_services.accountants, "includes third level object")
