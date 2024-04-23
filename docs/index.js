@@ -33,17 +33,21 @@ function createFCSObjFromDocs(filePath) {
         } 
         if (line.startsWith('[')) {
           let closingBracketIndex = line.indexOf(']');
-          
-          let serviceKey = line.substring(0, closingBracketIndex + 1);
-          let serviceValue = line.substring(closingBracketIndex + 1); 
-          if (sections[firstLevelSection]?.[secondLevelSection]?.[thirdLevelSection]?.[fourthLevelSection]) {
-            sections[firstLevelSection][secondLevelSection][thirdLevelSection][fourthLevelSection][serviceKey] = serviceValue
-          } else if (sections[firstLevelSection]?.[secondLevelSection]?.[thirdLevelSection]) {
-            sections[firstLevelSection][secondLevelSection][thirdLevelSection][serviceKey] = serviceValue
-          } else if (sections[firstLevelSection]?.[secondLevelSection]) {
-            sections[firstLevelSection][secondLevelSection][serviceKey] = serviceValue
-          } else if (sections[firstLevelSection]) {
-            sections[firstLevelSection][serviceKey] = serviceValue
+          let preKey = line.substring(0, closingBracketIndex + 1);
+          const keyRegex = /\*\*([^:]+)/; 
+          let keyMatch = preKey.match(keyRegex); 
+            if (keyMatch) {
+              let serviceKey = keyMatch[1];
+              let serviceValue = line.substring(closingBracketIndex + 1); 
+            if (sections[firstLevelSection]?.[secondLevelSection]?.[thirdLevelSection]?.[fourthLevelSection]) {
+              sections[firstLevelSection][secondLevelSection][thirdLevelSection][fourthLevelSection][serviceKey] = serviceValue
+            } else if (sections[firstLevelSection]?.[secondLevelSection]?.[thirdLevelSection]) {
+              sections[firstLevelSection][secondLevelSection][thirdLevelSection][serviceKey] = serviceValue
+            } else if (sections[firstLevelSection]?.[secondLevelSection]) {
+              sections[firstLevelSection][secondLevelSection][serviceKey] = serviceValue
+            } else if (sections[firstLevelSection]) {
+              sections[firstLevelSection][serviceKey] = serviceValue
+            }
           }
         }
       }
