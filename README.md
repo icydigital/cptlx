@@ -212,27 +212,25 @@ There are definitely services that provide both fiat-to-crypto (on-ramps) and cr
 
 These are established platforms like Coinbase, Binance, and Kraken that offer a user-friendly interface for buying crypto with fiat. They generally have high liquidity and tight spreads, but may charge higher fees.
 
-[**Ramp:**](https://ramp.network/) 
+[**Ramp:**](https://ramp.network/) This is a company that provides a way for businesses to allow their users to buy and sell crypto within their app.
 
-[**Moonpay:**](https://www.moonpay.com/business/onramps) 
+[**Moonpay:**](https://www.moonpay.com/business/onramps) This is a payment gateway that allows users to buy and sell crypto with a variety of payment methods including credit cards, bank transfers, and Apple Pay.
 
-[**Coinbase:**](https://www.coinbase.com/de/) 
+[**Coinbase:**](https://www.coinbase.com/de/) This is a regulated cryptocurrency exchange that offers a variety of features to make buying and selling cryptocurrency safe and easy. Some of the important points are that Coinbase stores 98% of customer funds offline and offers 24/7 phone support.
 
-[**Binance:**](https://www.binance.com/en) 
+[**Binance:**](https://www.binance.com/en) This is the world’s leading cryptocurrency exchange. Users can buy, sell, and trade hundreds of cryptocurrencies. Binance also offers other features such as margin trading, futures trading, and the ability to earn interest on cryptocurrency holdings.
 
-[**Kraken:**](https://www.kraken.com/) A reputable exchange with strong security features and good customer support.
+[**Kraken:**](https://www.kraken.com/) This is a cryptocurrency exchange that offers a variety of features, including a mobile app, margin trading, and staking rewards. Users can buy and sell over 200 different cryptocurrencies. Kraken emphasizes security, stating that they use industry-leading security measures.
 
-[**Bitstamp:**](https://www.bitstamp.net/) 
-
-[**Gemini:**](https://www.bitstamp.net/)
+[**Bitstamp:**](https://www.bitstamp.net/) This is a trusted crypto exchange that offers features such as ease of use, mobile apps, and the ability to earn interest on crypto holdings. Bitstamp is also secure and reliable, with institutional-grade security measures.
 
 #### Peer-to-Peer P2P marketplaces
 
-[**Paxful:**](https://paxful.com/) 
+[**Paxful:**](https://paxful.com/) This is a peer-to-peer cryptocurrency marketplace that allows users to buy and sell Bitcoin using a variety of payment methods. Paxful also offers a secure escrow service to protect users during transactions.
 
-[**LocalBitcoins:**](https://localbitcoins.com/) 
+[**LocalBitcoins:**](https://localbitcoins.com/) This is a cryptocurrency trading platform that has shut down.
 
-[**Bisq:**](https://bisq.network/)
+[**Bisq:**](https://bisq.network/) This is a decentralized bitcoin exchange network that allows users to buy and sell bitcoin for fiat currency or other cryptocurrencies. Users do not need to register to use Bisq and their data is stored locally on their devices. Bisq offers a number of features including security, privacy, and ease of use.
 
 #### Cryptocurrency ATMs 
 
@@ -306,4 +304,4 @@ These ATMs allow users to buy crypto with cash. However, they typically have hig
 
 [**Bridge Mutual:**](https://bridgemutual.io/) A DeFi insurance protocol, Bridge Mutual offers coverage for a variety of DeFi risks, including hacks, exploits, and impermanent loss.
 
-[**InsurAce:**](https://app.insurace.io/) 
+[**InsurAce:**](https://app.insurace.io/) InsurAce provides insurance for cryptocurrency wallets and smart contracts. They offer a variety of insurance products, including cover for smart contract vulnerabilities, exchange hacks, and rug pulls 

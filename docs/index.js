@@ -29,7 +29,7 @@ function createFCSObjFromDocs(filePath) {
         } 
         if (line.startsWith('#### ')) {
           fourthLevelSection = line.toLowerCase().trim().replace(/^(.){5}/,'').replace(/\W/g, '_')
-           sections[firstLevelSection][secondLevelSection][thirdLevelSection][fourthLevelSection] = sections[firstLevelSection][secondLevelSection][thirdLevelSection][fourthLevelSection] || {}
+           sections[firstLevelSection][secondLevelSection][thirdLevelSection][fourthLevelSection] = sections[firstLevelSection][secondLevelSection][thirdLevelSection][fourthLevelSection] || {};
         } 
         if (line.startsWith('[')) {
           let closingBracketIndex = line.indexOf(']');
@@ -39,6 +39,7 @@ function createFCSObjFromDocs(filePath) {
             if (keyMatch) {
               let serviceKey = keyMatch[1];
               let serviceValue = line.substring(closingBracketIndex + 1); 
+              console.log(serviceKey, serviceValue)
             if (sections[firstLevelSection]?.[secondLevelSection]?.[thirdLevelSection]?.[fourthLevelSection]) {
               sections[firstLevelSection][secondLevelSection][thirdLevelSection][fourthLevelSection][serviceKey] = serviceValue
             } else if (sections[firstLevelSection]?.[secondLevelSection]?.[thirdLevelSection]) {
