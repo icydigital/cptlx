@@ -1,6 +1,9 @@
 name: docs-ci
 
-on: [push]  # Trigger the workflow on push events
+on:
+  push:
+    paths-ignore:
+      - '**.md'
 
 jobs:
   test:
@@ -8,8 +11,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-      - uses: actions/setup-node@v4  # Setup Node.js environment
+      - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - run: npm install  # Install dependencies
-      - run: npm test  # Run tests using Tape
+      - run: npm install
+      - run: npm test
