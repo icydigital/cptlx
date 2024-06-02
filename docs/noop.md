@@ -2,6 +2,7 @@
 
 some todos might be noopish or rubbish, but 
 
+--> simplify service.json
 --> find reliable sources (by category) 
 --> find and observe financial blogs/information centers  
 --> declare which services provide Crypto to fiat on ramp and off-ramp simultanuesly 
