@@ -9,37 +9,15 @@ function createFCSObjFromDocs(filePath) {
       }
 
       const sections = [];
-      // let firstLevelSection = '';
-      // let secondLevelSection = '';
-      // let thirdLevelSection = '';
-      // let fourthLevelSection = '';
-
       for (const line of data.split('\n')) {
-        // if (line.startsWith('# ')) {
-        //   firstLevelSection = line.toLowerCase().trim().replace(/^(.){2}/,'').replace(/\W/g, '_');
-        //   sections[firstLevelSection] = sections[firstLevelSection] || {}; 
-        // } 
-        // if (line.startsWith('## ')) {
-        //   secondLevelSection = line.toLowerCase().trim().replace(/^(.){3}/,'').replace(/\W/g, '_')
-        //   sections[firstLevelSection][secondLevelSection] = sections[firstLevelSection][secondLevelSection] || {};
-        // } 
-        // if (line.startsWith('### ')) {
-        //   thirdLevelSection = line.toLowerCase().trim().replace(/^(.){4}/,'').replace(/\W/g, '_')
-        //   sections[firstLevelSection][secondLevelSection][thirdLevelSection] = sections[firstLevelSection][secondLevelSection][thirdLevelSection] || {};
-        // } 
-        // if (line.startsWith('#### ')) {
-        //   fourthLevelSection = line.toLowerCase().trim().replace(/^(.){5}/,'').replace(/\W/g, '_')
-        //    sections[firstLevelSection][secondLevelSection][thirdLevelSection][fourthLevelSection] = sections[firstLevelSection][secondLevelSection][thirdLevelSection][fourthLevelSection] || {};
-        // } 
         if (line.startsWith('[')) {
-          let closingBracketIndex = line.indexOf(']');
-          let preKey = line.substring(0, closingBracketIndex + 1);
-          const keyRegex = /\*\*([^:]+)/; 
-          let keyMatch = preKey.match(keyRegex); 
-            if (keyMatch) {
-              let serviceKey = keyMatch[1];
-              let serviceValue = line.substring(closingBracketIndex + 1); 
-              sections.push({"service": serviceKey, "description": serviceValue})
+          const [, serviceKey] = line.match(/\*\*([^:]+)/);
+          const serviceValue = line.slice(line.indexOf(']') + 1).trim();
+          const linkMatch = serviceValue.match(/^\(https?:\/\/www\.[^)]+\)/);
+          if (linkMatch) {
+            const serviceLink = linkMatch[0];
+            const serviceDescription = serviceValue.slice(linkMatch.index + serviceLink.length).trim();
+            sections.push({ service: serviceKey, link: serviceLink, description: serviceDescription });
           }
         }
       }
@@ -48,4 +26,4 @@ function createFCSObjFromDocs(filePath) {
   });
 }
 
-module.exports = createFCSObjFromDocs
+module.exports = createFCSObjFromDocs;
